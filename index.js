@@ -3,22 +3,10 @@ let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];
 
 
-
-
-
-function myFunction() {
-    
-}
-
-myFunction()
-
-
 btn.onclick = function() {
   modal.style.display = "block";
   let x = document.getElementById("email").value;
  document.getElementById("demo").innerHTML = document.getElementById("demo").innerHTML + " " + x ;
-
-
 }
 
 
